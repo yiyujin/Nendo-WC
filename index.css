@@ -1,0 +1,25 @@
+.header-logo_small{display: none;}
+
+@media only screen and (max-width:640px) {
+    header{left: 10px; top: 10px; height:10% !important; position: absolute;}
+
+    .texts{margin-right:10px !important;}
+
+    a{font-size: 12px;}
+    nav li{margin: 8px;}
+
+    .floortext{display: none;}
+    .floortext2{display: inline !important;}
+
+    /* about */
+    .texts{width: 80vw !important;}
+    .texts p{font-size:12px !important; line-height: 20px !important;}
+
+    .wordcloud button{font-size: 16px !important;}
+    #b_main{font-size: 20px !important;}
+    .words{top:10px !important;}
+    .wordcloud{margin-bottom: 0 !important;}
+
+    .picture{float: none !important; margin-right: 0px !important; margin-bottom: 0px !important;}
+  }
+  
